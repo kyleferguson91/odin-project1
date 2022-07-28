@@ -68,15 +68,46 @@ body {
     display: flex;
     flex-flow: row;
    column-gap: 10%;
+   padding: 80px 0;
     
 }
 
 .title-text {
     margin-left: 15vw;
-    border: 2px solid green;
+ 
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    width: 50vw;
+    flex-basis: 100%;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB
 }
 
 .title-img {
-    border: 2px solid green;
-    margin-left: 10%;
+
+}
+button {
+    display: block;
+    width: 100px;
+    height: auto;
+    padding: 15px;
+    background-color: #3882f6;
+    font-weight: bold;
+    color: #f9faf8;
+    border-radius: 25px;
+    border: none;
+
+}
+
+.holder {
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
