@@ -16,7 +16,7 @@ body {
     color: red;
   
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     width: 100vw;
     align-items: center;
     padding: 0 15%;
@@ -25,14 +25,24 @@ body {
     color: #f9faf8;
     font-weight: bolder;
  
+ 
 
+}
+
+.logo {
+    flex-shrink: 0;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
 }
 
 .header li {
     display: inline-block;
     color: #e5e7eb;
     font-size: 18px;
-  
+    flex-shrink: 0;
 }
 
 .header div {
@@ -55,4 +65,18 @@ body {
     width: 100%;
     height: 40vh;
     background-color: var(--main-header-color);
+    display: flex;
+    flex-flow: row;
+   column-gap: 10%;
+    
+}
+
+.title-text {
+    margin-left: 15vw;
+    border: 2px solid green;
+}
+
+.title-img {
+    border: 2px solid green;
+    margin-left: 10%;
 }
