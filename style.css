@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    color: red;
+    border: 2px solid red;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100vw;
+    align-items: center;
+    padding: 0 15%;
+ 
+
+}
+
+.header li {
+    display: inline-block;
+  
+}
+
+.header div {
+   
+}
+
+.header .links {
+    display: inline-block;
+    border: 2px solid black;
+   margin-left: auto;
+
+}
+
+.header ul {
+    padding: 0;
+}
