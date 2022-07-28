@@ -147,9 +147,72 @@ button {
 
  h2 {
     margin-top: 72px;
+    font-size: 35px;
     text-align: center;
 
 }
+
+.quotes {
+    background-color: #E5E7EB;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 220px
+}
+
+.quotebox {
+
+    width: 60vw;
+    font-size: 36px;
+    color: #1f2937;
+
+    
+}
+
+.signed {
+    margin-left: 75%;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+
+}
+
+.bluebox {
+    background-color: #3882f6;
+    
+    height: 15vh;
+    border-radius: 10px;
+    display: flex;
+    flex: 1 1 auto;
+    padding: 30px;
+    align-items: center;
+    max-width: 60vw;
+    
+}
+
+.whitebox {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+.ctatext {
+    flex-grow: .8 ;
+    color: white;
+    margin-left: 10%;
+}
+
+
+.buttoncta {
+    border: 1px solid white;
+    border-radius: 12px;
+
+}
+
+
 
 
 .footer {
